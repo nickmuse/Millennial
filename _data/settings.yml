@@ -16,10 +16,10 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://twitter.com/nickmuse'}
-- {icon: 'github',  link:    'https://github.com/nickmuse'}
-- {icon: 'medium',  link:    'https://medium.com/@nickmuse'}
-- {icon: 'itch-io', link:     'https://nickmuse.itch.io'}
+- {name: 'Twitter', icon: 'twitter', link: 'https://twitter.com/nickmuse'}
+- {name: 'GitHub',  icon: 'github',  link: 'https://github.com/nickmuse'}
+- {name: 'Medium',  icon: 'medium',  link: 'https://medium.com/@nickmuse'}
+- {name: 'itch.io', icon: 'itch-io', link: 'https://nickmuse.itch.io'}
 #- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
 #- {icon: 'instagram', link:  'https://instagram.com/paululele'}
 #- {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
