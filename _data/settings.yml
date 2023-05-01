@@ -9,9 +9,8 @@ google-ID: 'UA-156092728-2'
 menu:
 - {name: 'About',              url: 'about'}
 - {name: 'Articles',           url: 'articles'}
-- {name: 'Games',              url: 'games'}
 - {name: 'Libraries',          url: 'libraries'}
-- {name: 'Artwork',            url: 'artwork'}
+- {name: 'Design',             url: 'design'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
