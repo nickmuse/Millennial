@@ -30,8 +30,10 @@ pagination:
   next_page: 'Newer'
   previous_page: 'Older'
 
-sharing_button_prompt: 'Feel free to share!'
+sharing_button_prompt: 'Share this'
 
 related_posts: 'You may also enjoy...'
 
 post_date_prefix: 'Written on'
+
+bottom_line: '2023 Nick Muse'
