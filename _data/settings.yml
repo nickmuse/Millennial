@@ -18,8 +18,8 @@ menu:
 social:
 - {icon: 'twitter', link:    'https://twitter.com/nickmuse'}
 - {icon: 'github',  link:    'https://github.com/nickmuse'}
-- {icon: 'medium',  link:    'https://medium.com/nickmuse'}
-- {icon: 'itchio', link:     'https://nickmuse.itch.io'}
+- {icon: 'medium',  link:    'https://medium.com/@nickmuse'}
+- {icon: 'itch-io', link:     'https://nickmuse.itch.io'}
 #- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
 #- {icon: 'instagram', link:  'https://instagram.com/paululele'}
 #- {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
