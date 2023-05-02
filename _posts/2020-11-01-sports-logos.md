@@ -7,7 +7,7 @@ tags: [art]
 image: roadies_group.jpg
 ---
 
-A couple of logos that I designed for the Legends of Legion Charity Football league.
+A couple of logos that I designed for the [Legends of Legion Charity Football League](https://legendsoflegion.com)
 
 ### Neighborhood Roadies
 
