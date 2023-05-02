@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Projects
-category: projects
-permalink: /projects
+title: Design
+category: design
+permalink: /design
 ---
