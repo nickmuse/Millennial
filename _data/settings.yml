@@ -37,6 +37,6 @@ hide_post_share: true
 related_posts: 'You may also enjoy...'
 hide_related_posts: true
 
-post_date_prefix: 'Written on'
+post_date_prefix: 'Created on'
 
 bottom_line: '2023 Nick Muse'
