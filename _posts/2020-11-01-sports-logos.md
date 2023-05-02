@@ -17,6 +17,6 @@ A couple of logos that I designed for the [Legends of Legion Charity Football Le
 
 ![Mothmen]({{ site.github.url }}/assets/img/mothmen.png)
 
-![Mothmen]({{ site.github.url }}/assets/img/mothmen_tshirt.png)
+![Mothmen]({{ site.github.url }}/assets/img/mothmen_tshirt.jpg)
 
-![Mothmen]({{ site.github.url }}/assets/img/mothmen_group.png)
+![Mothmen]({{ site.github.url }}/assets/img/mothmen_group.jpg)
