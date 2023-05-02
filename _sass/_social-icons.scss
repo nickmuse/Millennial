@@ -68,3 +68,8 @@
   padding: 5px;
   @include social-media-icon($itch-io-color, $icon-transition-time);
 }
+
+.fa-steam {
+  padding: 5px;
+  @include social-media-icon($steam-color, $icon-transition-time);
+}
