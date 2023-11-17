@@ -41,6 +41,9 @@
 */
 
 @media (min-width: $container-width) {
+  .avatar {
+    float: none;
+  }
   .dropbtn {
     display: none;
   }
@@ -49,6 +52,9 @@
   }
 }
 @media (max-width: $container-width) {
+  .avatar {
+    float: left;
+  }
   .menu-list {
     display: none;
   }
