@@ -7,10 +7,10 @@ disqus:
 google-ID: 'UA-156092728-2'
 
 menu:
-- {name: 'About',              url: 'about'}
-- {name: 'Articles',           url: 'articles'}
-- {name: 'Libraries',          url: 'libraries'}
-- {name: 'Design',             url: 'design'}
+- {name: 'about',              url: 'about'}
+- {name: 'articles',           url: 'articles'}
+- {name: 'libraries',          url: 'libraries'}
+- {name: 'design',             url: 'design'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
@@ -26,8 +26,8 @@ social:
 
 # Customize site text
 pagination:
-  next_page: 'Newer'
-  previous_page: 'Older'
+  next_page: 'newer'
+  previous_page: 'plder'
 
 hide_post_date: false
 
