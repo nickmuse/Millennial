@@ -42,8 +42,8 @@
 
 @media (min-width: $container-width) {
   .avatar {
-    float: none;
-    width: 50%;
+    float: left;
+    width: 10%;
     margin: 20px 20px 20px 20px;
   }
   .dropbtn {
@@ -54,9 +54,9 @@
   }
 }
 @media (max-width: $container-width) {
-  .avatar {
-    float: left;
-    width: 15%;
+   .avatar {
+    float: none;
+    width: 25%;
     margin: 20px 20px 20px 20px;
   }
   .menu-list {
