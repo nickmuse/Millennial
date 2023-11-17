@@ -3,8 +3,18 @@ layout: default
 title: Home
 ---
 
-## test
-{% include about.html %}
+<div class="page-content">
+  <h1>
+    Home
+  </h1>
+  <article>
+    ## test
+    test
+    {% include about.html %}
+  </article>
+</div>
+
+
 
 {% for post in paginator.posts %}
   {% include featured-post.html %}
