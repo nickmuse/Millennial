@@ -8,16 +8,16 @@ google-ID: 'UA-156092728-2'
 
 menu:
 #- {name: 'about',              url: 'index'}
-- {name: 'articles',           url: 'articles'}
-- {name: 'libraries',          url: 'libraries'}
-- {name: 'design',             url: 'design'}
+- {name: '# articles',           url: 'articles'}
+- {name: '# libraries',          url: 'libraries'}
+- {name: '# design',             url: 'design'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {name: 'Twitter', icon: 'twitter', link: 'https://twitter.com/nickmuse'}
-- {name: 'GitHub',  icon: 'github',  link: 'https://github.com/nickmuse'}
-- {name: 'Medium',  icon: 'medium',  link: 'https://medium.com/@nickmuse'}
-- {name: 'itch.io', icon: 'itch-io', link: 'https://nickmuse.itch.io'}
+- {name: ' twitter', icon: 'twitter', link: 'https://twitter.com/nickmuse'}
+- {name: ' github',  icon: 'github',  link: 'https://github.com/nickmuse'}
+- {name: ' medium',  icon: 'medium',  link: 'https://medium.com/@nickmuse'}
+- {name: ' itch.io', icon: 'itch-io', link: 'https://nickmuse.itch.io'}
 #- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
 #- {icon: 'instagram', link:  'https://instagram.com/paululele'}
 #- {icon: 'envelope', link:   'mailto:hello@paulle.ca'}
