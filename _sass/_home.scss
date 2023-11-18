@@ -1,17 +1,3 @@
-/* large browser - fancy */
-@media (min-width: $container-width) {
-          .avatar {
-                    width: 10%;
-          }
-}
-
-/* mobile - center */
-@media (max-width: $container-width) {
-          .avatar {
-                    width: 30%;
-          }
-}
-
 .featured-post {
   height: 300px;
   margin: 5px 10px 10px;
