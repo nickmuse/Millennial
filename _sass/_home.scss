@@ -1,4 +1,4 @@
-<!-- large browser -->
+/* large browser - fancy */
 @media (min-width: $container-width) {
 .avatar {
 float: left;
@@ -8,7 +8,7 @@ display: none;
 }
 }
 
-<!-- mobile -->
+/* mobile - center */
 @media (max-width: $container-width) {
 .avatar {
 float: none;
