@@ -1,22 +1,15 @@
 /* large browser - fancy */
 @media (min-width: $container-width) {
-.avatar {
-float: left;
-width: 10%;
-margin: 20px 20px 20px 20px;
-}
+          .avatar {
+                    width: 10%;
+          }
 }
 
 /* mobile - center */
 @media (max-width: $container-width) {
-.avatar {
-float: none;
-width: 30%;
-text-align: center;
-          display:block;
-        margin-left: auto;
-        margin-right: auto;
-}
+          .avatar {
+                    width: 30%;
+          }
 }
 
 .featured-post {
