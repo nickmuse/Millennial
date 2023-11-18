@@ -1,22 +1,3 @@
-/* large browser - fancy */
-@media (min-width: $container-width) {
-.avatar {
-float: left;
-width: 10%;
-margin: 20px 20px 20px 20px;
-}
-}
-/* mobile - centering */
-@media (max-width: $container-width) {
-.avatar {
-float: none;
-width: 25%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-}
-
 .featured-post {
   height: 300px;
   margin: 5px 10px 10px;
