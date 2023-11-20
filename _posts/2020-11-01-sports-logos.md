@@ -11,10 +11,10 @@ A couple of logos that I designed for the [Legends of Legion Charity Football Le
 
 ### Neighborhood Roadies
 
-![Roadies]({{ site.github.url }}/assets/img/roadies.png)
+<div class="featured-image"><img src="{{ site.github.url }}/assets/img/roadies.png"></div>
 
 ### Shirley Estate Mothmen
 
-![Mothmen]({{ site.github.url }}/assets/img/mothmen.png)
+<div class="featured-image"><img src="{{ site.github.url }}/assets/img/mothmen.png"></div>
 
-![Mothmen]({{ site.github.url }}/assets/img/roadies_group.jpg)
+<div class="featured-image"><img src="{{ site.github.url }}/assets/img/roadies_group.jpg"></div>
