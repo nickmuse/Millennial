@@ -13,9 +13,11 @@ title: Home
   <br><br>
 </div>
 
+<div class="page-article-rows">
 {% for post in paginator.posts %}
   {% include featured-post.html %}
 {% endfor %}
+</div>
 
 <!-- Pagination links -->
 <div class="pagination">
