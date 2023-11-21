@@ -9,8 +9,8 @@ google-ID: 'UA-156092728-2'
 menu:
 - {name: 'about',              url: 'about'}
 #- {name: '  articles',           url: 'articles'}
-#- {name: '  libraries',          url: 'libraries'}
 - {name: '  design',             url: 'design'}
+- {name: '  libraries',          url: 'libraries'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
