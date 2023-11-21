@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<div class="page-content"><h1>category | {{ page.category }}</h1></div>
+<div class="page-content"><h1>{{ page.category }}</h1></div>
 
+<div class="page-article-rows">
 {% for post in site.posts %}
   {% if post.categories contains page.category %}
     {% include featured-post.html %}
   {% endif %}
 {% endfor %}
+</div>
