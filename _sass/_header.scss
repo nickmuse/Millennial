@@ -6,7 +6,7 @@
   box-shadow: 0 5px 6px -6px #bbb;
   z-index: 100;
 }
-@media (max-width: $container-width) {
+/*@media (max-width: $container-width) {
   .site-header {
     min-height: 56px;
     width: 95vw;
@@ -15,7 +15,7 @@
     box-shadow: 0 5px 6px -6px #bbb;
     z-index: 100;
   }
-}
+}*/
 .site-header a {
   text-decoration: none;
 }
@@ -48,7 +48,7 @@
     display: none;
   }
 }
-@media (max-width: $container-width) {
+/*@media (max-width: $container-width) {
   .menu-list {
     display: none;
   }
@@ -92,3 +92,4 @@
     background-color: #f1f1f1;
   }
 }
+*/
