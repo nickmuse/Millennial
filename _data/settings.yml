@@ -16,7 +16,7 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {name: ' twitter', icon: 'twitter', link: 'https://twitter.com/nickmuse'}
-- {name: ' github',  icon: 'github',  link: 'https://github.com/nickmuse'}
+#- {name: ' github',  icon: 'github',  link: 'https://github.com/nickmuse'}
 - {name: ' medium',  icon: 'medium',  link: 'https://medium.com/@nickmuse'}
 - {name: ' itch.io', icon: 'itch-io', link: 'https://nickmuse.itch.io'}
 #- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
