@@ -5,6 +5,7 @@ disqus:
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'G-WP1Y6QELVK'
+google-tag: 'GTM-PQVT46SV'
 
 menu:
 - {name: 'about',              url: 'about'}
