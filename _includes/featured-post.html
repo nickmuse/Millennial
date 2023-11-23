@@ -14,15 +14,30 @@
 	});
 </script>
 <div class="article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
-  <h6 class="article-date">{{ post.date }}</h6>
-  <h3 class="article-title"><span>{{ post.title }}</span></h3>
-  <p class="article-blurb">{{ post.categories }}</p>
-  <p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
-  <!--
-  <h6 class="article-date">15 feb 2018</h6>
-  <h3 class="article-h1"><a href="">Mobspawn</a></h3> 
-  <p class="article-p">An upcoming project.</p>
-  <p class="article-link"><a href="">read&raquo;</a></p>
-  -->
-  <div class="article-breaker"></div>
+	<!-- Date + Author -->
+	<h6 class="article-date">
+  		{{ site.data.settings.post_date_prefix }}
+  		{% assign d = page.date | date: "%-d"  %}
+  		{{ page.date | date: "%B" }}
+  		{% case d %}
+    			{% when '1' or '21' or '31' %}{{ d }}st
+    			{% when '2' or '22' %}{{ d }}nd
+    			{% when '3' or '23' %}{{ d }}rd
+    			{% else %}{{ d }}th{% endcase %},
+	  		{{ page.date | date: "%Y" }}
+  		by
+  		{% if page.author %}
+    			{{ page.author }}
+	  	{% else %}
+	    		{{ site.author }}
+  		{% endif %}
+  	</h6>
+	<!-- Title -->
+  	<h3 class="article-title"><span>{{ post.title }}</span></h3>
+	<!-- Blurb -->
+  	<p class="article-blurb">{{ post.categories }}</p>
+	<!-- Link -->
+  	<p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
+	<!-- Break -->
+  	<div class="article-breaker"></div>
 </div>
