@@ -14,7 +14,7 @@
 	});
 </script>
 <div class="article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
-  <h6 class="article-date">{% include post-date.html %}</h6>
+  <h6 class="article-date">{{ post.date }}</h6>
   <h3 class="article-title"><span>{{ post.title }}</span></h3>
   <p class="article-blurb">{{ post.categories }}</p>
   <p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
