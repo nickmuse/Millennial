@@ -7,11 +7,16 @@
   </a>
 </article>
 -->
-
-<div class="custom-article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
-  <h6>{% include post-date.html %}</h6>
-  <h3><span>{{ post.title }}</span></h3>
-  <p class="article-p">{{ post.categories }}</p>
+<script type="javascript">
+  $(".article-preview").click(function() {
+  window.location = $(this).find("a").attr("href"); 
+  return false;
+	});
+</script>
+<div class="article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
+  <h6 class="article-date">{% include post-date.html %}</h6>
+  <h3 class="article-title"><span>{{ post.title }}</span></h3>
+  <p class="article-blurb">{{ post.categories }}</p>
   <p></p><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
   <!--
   <h6 class="article-date">15 feb 2018</h6>
