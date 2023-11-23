@@ -1,3 +1,4 @@
+<!--
 <article>
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-post" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
@@ -5,3 +6,19 @@
     </div>
   </a>
 </article>
+-->
+
+<div class="article-preview">
+  <h6>{% include post-date.html %}</h6>
+  <h3><span>{{ post.title }}</span></h3>
+  <p class="article-p">{{ post.categories }}</p>
+  <p></p><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
+  <!--
+  <h6 class="article-date">15 feb 2018</h6>
+  <h3 class="article-h1"><a href="">Mobspawn</a></h3> 
+  <p class="article-p">An upcoming project.</p>
+  <p class="article-link"><a href="">read&raquo;</a></p>
+  -->
+  <div class="article-breaker"></div>
+</div>
+</a>a>
