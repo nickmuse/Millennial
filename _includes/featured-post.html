@@ -7,12 +7,7 @@
   </a>
 </article>
 -->
-<script type="javascript">
-  $(".article-preview").click(function() {
-  window.location = $(this).find("a").attr("href"); 
-  return false;
-	});
-</script>
+
 <div class="article-preview" onclick="location.href='{{ site.github.url }}{{ post.url }}'" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
 	<!-- Date + Author -->
 	<h6 class="article-date">
@@ -24,7 +19,7 @@
 	<!-- Blurb -->
   	<p class="article-blurb">{{ post.blurb }}</p>
 	<!-- Link -->
-  	<p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
+  	<!-- <p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p> -->
 	<!-- Break -->
   	<div class="article-breaker"></div>
 </div>
