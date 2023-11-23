@@ -18,23 +18,11 @@
 	<h6 class="article-date">
 		{% assign _month = post.date | date: "%b" %}
 		{{ post.date | date: "%Y" }} {{ _month | downcase }} {{ post.date | date: "%d" }}
-		<!--
-  		{{ site.data.settings.post_date_prefix }}
-  		{% assign d = post.date | date: "%-d"  %}
-  		{{ post.date | date: "%B" }}
-  		{% case d %}
-    			{% when '1' or '21' or '31' %}{{ d }}st
-    			{% when '2' or '22' %}{{ d }}nd
-    			{% when '3' or '23' %}{{ d }}rd
-    			{% else %}{{ d }}th{% endcase %},
-	  		{{ post.date | date: "%Y" }}
-  		by {{ post.author }}
-		-->
   	</h6>
 	<!-- Title -->
   	<h3 class="article-title"><span>{{ post.title }}</span></h3>
 	<!-- Blurb -->
-  	<p class="article-blurb">{{ post.categories }}</p>
+  	<p class="article-blurb">{{ post.blurb }}</p>
 	<!-- Link -->
   	<p class="article-link"><a href="{{ site.github.url }}{{ post.url }}">read&raquo;</a></p>
 	<!-- Break -->
