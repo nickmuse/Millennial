@@ -5,6 +5,7 @@ author: "Nick Muse"
 categories: design
 tags: [art]
 image: mothmen_group.jpg
+blurb: "Logos I designed for the Legends of Legion charity football league."
 ---
 
 Logos I designed for the Legends of Legion charity football league.
