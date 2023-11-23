@@ -16,6 +16,8 @@
 <div class="article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
 	<!-- Date + Author -->
 	<h6 class="article-date">
+		{{ post.date | date: "%Y" }} {{ post.date | date: "%b" }} {{ post.date | date: "%d" }}
+		<!--
   		{{ site.data.settings.post_date_prefix }}
   		{% assign d = post.date | date: "%-d"  %}
   		{{ post.date | date: "%B" }}
@@ -26,6 +28,7 @@
     			{% else %}{{ d }}th{% endcase %},
 	  		{{ post.date | date: "%Y" }}
   		by {{ post.author }}
+		-->
   	</h6>
 	<!-- Title -->
   	<h3 class="article-title"><span>{{ post.title }}</span></h3>
