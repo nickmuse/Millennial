@@ -16,7 +16,8 @@
 <div class="article-preview" style="background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url({{ site.github.url }}/assets/img/{{ post.image }});">
 	<!-- Date + Author -->
 	<h6 class="article-date">
-		{{ post.date | date: "%Y" }} {{ post.date | date: "%b" | downcase }} {{ post.date | date: "%d" }}
+		{% assign _month = post.date | date: "%b" %}
+		{{ post.date | date: "%Y" }} {{ _month | downcase }} {{ post.date | date: "%d" }}
 		<!--
   		{{ site.data.settings.post_date_prefix }}
   		{% assign d = post.date | date: "%-d"  %}
