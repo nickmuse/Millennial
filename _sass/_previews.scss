@@ -1,0 +1,60 @@
+.article-preview {
+  background-image: linear-gradient(rgba(255,255,255,0.90),rgba(255,255,255,.90)),url(https://nickmuse.com/assets/img/yamaha1.jpg);
+  background-color: white;
+  margin-left: auto;
+  margin-right:auto;
+  box-shadow: 0.5px 0.10px 10px -1px #ccc;
+  border-left:3px #1abbb3 solid;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 50%;
+}
+
+.article-title,
+.article-blurb,
+.article-link,
+.article-date {
+  text-align: left !important;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  font-family: 'Sunflower', sans-serif;
+}
+
+.article-date {
+  margin-bottom: -20px;
+  padding-top: 25px;
+  font-weight: normal;
+  color: #767676;
+  font-size: 15px;
+}
+
+.article-title {
+  font-size: 20px !important;
+  padding-top: 25px;
+}
+
+.article-title a {
+  color: black;
+  text-align: left !important;
+  text-decoration: none;
+}
+
+.article-blurb {
+  color: #767676;
+  font-weight: normal;
+  max-width: 90%;
+}
+
+.article-link a {
+  margin-top: 10px;
+  color: #212529 !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.article-breaker {
+  border-bottom: 1px solid #E8E8E8;
+  padding-top: 20px;
+}
