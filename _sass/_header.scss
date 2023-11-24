@@ -71,7 +71,6 @@
     position: relative;
     display: inline-block;
     float: right;
-    transform: translateX(-114px);
   }
   .dropdown-content {
     display: none;
@@ -80,6 +79,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    transform: translateX(-114px); /*min-width - dropdown actualy w*/
   }
   .dropdown-content a {
     color: black;
